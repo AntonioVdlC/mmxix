@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 import styles from "./Header.css";
 
 const Header = ({ children }) => (
-  <header class={styles.header}>
-    <span class={styles.content}>{children}</span>
+  <header className={styles.header}>
+    <span className={styles.content}>{children}</span>
   </header>
 );
 
