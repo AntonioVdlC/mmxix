@@ -2,7 +2,7 @@
 
 exports[`Main should render correctly 1`] = `
 <main
-  class="main"
+  className="main"
 >
   Helsinki is great!
 </main>

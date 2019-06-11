@@ -8,7 +8,7 @@ exports[`Input should render correctly 1`] = `
     
   </span>
   <input
-    className="inpupt"
+    className="input"
     name="arabic"
     onChange={[Function]}
     placeholder="2019"

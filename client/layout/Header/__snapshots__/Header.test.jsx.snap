@@ -2,10 +2,10 @@
 
 exports[`Header should render correctly 1`] = `
 <header
-  class="header"
+  className="header"
 >
   <span
-    class="content"
+    className="content"
   >
     MMXIX
   </span>
