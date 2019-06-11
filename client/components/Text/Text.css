@@ -1,0 +1,12 @@
+@import "../../styles/vars.css";
+
+.text {
+  display: block;
+  width: 100%;
+  margin: 42px;
+  text-align: center;
+
+  font-size: var(--font-size-xxxl);
+  color: var(--color-complementary);
+  font-family: var(--font-family-secondary);
+}

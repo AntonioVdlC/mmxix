@@ -24,7 +24,7 @@ const App = () => {
       <Header>MMXIX</Header>
       <Main>
         <Input
-          label={""}
+          label={"Input a number"}
           name={"arabic"}
           placeholder={"2019"}
           type={"number"}

@@ -14,7 +14,7 @@ const Input = ({
   <label className={styles.label}>
     <span>{label}</span>
     <input
-      className={styles.inpupt}
+      className={styles.input}
       type={type}
       name={name}
       value={value}

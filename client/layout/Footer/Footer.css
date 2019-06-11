@@ -4,7 +4,7 @@
   background-color: var(--color-complementary);
   color: var(--color-complementary-lighter);
   height: var(--footer-height);
-  font-family: var(--font-family-secondary);
+  font-family: var(--font-family-primary);
   font-size: var(--font-size-m);
 
   display: flex;
