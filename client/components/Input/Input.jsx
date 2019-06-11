@@ -29,7 +29,7 @@ Input.propTypes = {
   name: PropTypes.string.isRequired,
   placeholder: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
+  value: PropTypes.number.isRequired,
   handleInputChange: PropTypes.func.isRequired
 };
 
