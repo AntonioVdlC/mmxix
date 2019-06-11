@@ -6,9 +6,7 @@ const app = express();
 app.use(helmet());
 
 // Routes
-app.get("/", (req, res) => {
-  res.send("Hello, world!");
-});
+app.use("/", require("./routes/root"));
 
 // Start the server
 const port = process.env.PORT || 3000;
