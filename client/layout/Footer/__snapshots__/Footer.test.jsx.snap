@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly 1`] = `
+<footer
+  className="footer"
+>
+  <p>
+    Made with
+     
+    <span
+      aria-label="love"
+      role="img"
+    >
+      ♥️
+    </span>
+     
+    by 
+    <a
+      href="http://antoniovdlc.me"
+    >
+      Antonio Villagra De La Cruz
+    </a>
+    . 
+    <br />
+    The
+     
+    <a
+      href="https://github.com/AntonioVdlC/mmxix"
+    >
+      source code
+    </a>
+     is licensed
+     
+    <a
+      href="http://opensource.org/licenses/mit-license.php"
+    >
+      MIT
+    </a>
+    .
+  </p>
+</footer>
+`;

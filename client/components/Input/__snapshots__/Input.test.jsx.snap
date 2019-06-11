@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render correctly 1`] = `
+<label
+  className="label"
+>
+  <span>
+    
+  </span>
+  <input
+    className="inpupt"
+    name="arabic"
+    onChange={[Function]}
+    placeholder="2019"
+    type="number"
+    value={2019}
+  />
+</label>
+`;
