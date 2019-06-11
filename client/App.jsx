@@ -10,7 +10,15 @@ import Text from "./components/Text";
 import arabicToRoman from "./utils/arabic-to-roman";
 
 const App = () => {
-  const [numeral, setNumeral] = useState("");
+  const [numeral, setNumeral] = useState(0);
+
+  let text;
+  try {
+    text = arabicToRoman(numeral);
+  } catch (err) {
+    text = err.message;
+  }
+
   return (
     <div>
       <Header>MMXIX</Header>
@@ -21,9 +29,9 @@ const App = () => {
           placeholder={"2019"}
           type={"number"}
           value={numeral}
-          handleInputChange={setNumeral}
+          handleInputChange={value => setNumeral(parseInt(value, 10))}
         />
-        <Text text={arabicToRoman(numeral)} />
+        <Text text={text} />
       </Main>
       <Footer />
     </div>
